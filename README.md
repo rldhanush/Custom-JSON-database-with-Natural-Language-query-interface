@@ -5,26 +5,28 @@ Welcome to the JSON Database project repository! This project implements a custo
 ## Overview
 The JSON Database system provides:
 
-* Efficient Data Management: Chunk-based processing for large JSON datasets, avoiding full memory load and ensuring scalability.
-* Natural Language Interface: Regex-based matching for interpreting natural language queries, offering user-friendly interaction.
-*Robust JSON Handling: Built to handle various data-driven applications with a focus on reliability and performance.
+* <strong>Efficient Data Management</strong>: Chunk-based processing for large JSON datasets, avoiding full memory load and ensuring scalability.
+* <strong>Natural Language Interface</strong>: Regex-based matching for interpreting natural language queries, offering user-friendly interaction.
+*Robust JSON Handling</strong>: Built to handle various data-driven applications with a focus on reliability and performance.
 
 ## Features
-* Data Storage Strategy: Newline-Delimited JSON (NDJSON) format for efficient CRUD operations.
-* Data Access Strategy: Byte-Offset Indexing and Hash Indexes for rapid data retrieval.
-* Query Processing: Streamlined for memory efficiency, supporting operations like projection, filtering, joining, grouping, aggregation, and ordering.
-* Query Parsing: Interprets natural language commands for insertion, deletion, and modification operations.
-* Command-Line Interface (CLI): Utilizes cmd2 Python Package for interactive querying and modification of data.
-* Scalability and Performance: Implements strategies for efficient join operations and optimized query execution.
+* <strong>Data Storage Strategy</strong>: Newline-Delimited JSON (NDJSON) format for efficient CRUD operations.
+* <strong>Data Access Strategy</strong>: Byte-Offset Indexing and Hash Indexes for rapid data retrieval.
+* <strong>Query Processing</strong>: Streamlined for memory efficiency, supporting operations like projection, filtering, joining, grouping, aggregation, and ordering.
+* <strong>Query Parsing</strong>: Interprets natural language commands for insertion, deletion, and modification operations.
+* <strong>Command-Line Interface (CLI)</strong>: Utilizes cmd2 Python Package for interactive querying and modification of data.
+* <strong>Scalability and Performance</strong>: Implements strategies for efficient join operations and optimized query execution.
 
 ## Installation and Usage
 Follow these steps to set up and run the JSON Database system locally:
 
 ### Prerequisites
 * Python 3.x installed on your system.
+  
 ### Installation
-** Clone the repository to your local machine.
-** Navigate to the project directory.
+* Clone the repository to your local machine.
+* Navigate to the project directory.
+
 ## Usage
 * Open your terminal.
 * Run the following commands:
