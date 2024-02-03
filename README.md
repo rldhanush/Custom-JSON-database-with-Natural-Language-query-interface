@@ -50,3 +50,41 @@ pip freeze
 ```
 * Follow the instructions to interact with the database system using natural language commands.
 
+### Directory Structure
+```sql
+JSONDatabase - main root directory 
+    src - contains all source code, partitioned into subdirectories 
+        - data_access : code to execute queries
+        - data_storage : code to create and store the database
+        - query_processing : code to parse queries
+    dataset - available datasets to test
+    databases - created databases using the project
+    start_db.sh - shell script to start the database system
+```
+
+### Sample Queries
+* Start with exploring the avaliable queries using 'help' command inside the JSONDatabase Shell process
+* Create a document database
+    * Creating a doucment database needs two inputs - Location path of JSON data and nested primary key to be used.
+    ```python
+    > create_document [Name of document]
+    # On enter - user is prompted to enter the Primary key for the document in its nested format; eg: artists.name -> artists : document name and name: pk (this can be nested - within name.id )
+    ```
+* To execute any query - we need to start the execution process. Two steps: 
+    * Initate the usage of a document on which you want to execute queries
+      ```python
+      > use_document [Document Name]
+      ```
+    * Initiate the execution process
+      ```python
+      > execute_query
+      # On enter - we get a prompt to enter query
+      # Usually for most queries - chunk size to be used by process engine is requested to the user - to implement data management
+      ```
+
+
+  
+
+
+
+
