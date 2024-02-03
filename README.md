@@ -83,38 +83,41 @@ JSONDatabase - main root directory
       ```
 * Projection:
   ```python
-  >
-  >
+  > Show all tracks with artists=Adele and popularity>=75
+  > Find name, artists, release_date, popularity, duration_sec in records where release_date>=2010 and duration_sec>=250.0 and popularity>80
   ```
 * Insertion:
   ```python
-  >
+  # Structure:  Add new [ENTITY] with [ATTRIBUTE]=[VALUE], [ATTRIBUTE]=[VALUE], [ATTRIBUTE]=[VALUE]
+  > Add new artist with name=DSCI551 followers=300 popularity=90
   >
   ```
 * Update:
   ```python
-  >
-  >
+  # Structure:  Modify [ENTITY/record] with [ATTRIBUTE]=[VALUE] set [ATTRIBUTE]=[VALUE], [ATTRIBUTE]=[VALUE], [ATTRIBUTE]=[VALUE]
+  # Use only - 'With' (usage of 'which'/'where' is invalid)
+  > Modify records with name=DSCI551 set popularity=75, followers=250, location=SLH100
   ```
 * Delete:
   ```python
-  >
-  >
+  # Structure:  Delete [ENTITY/record] with [ATTRIBUTE]=[VALUE], [ATTRIBUTE]=[VALUE], [ATTRIBUTE]=[VALUE]
+  # Use only - 'With' (usage of 'which'/'where' is invalid)
+  > Delete records with popularity=55 and genres=other
   ```
 * Group by Aggregations:
   ```python
-  >
-  >
+  > Display maximum(duration_sec) of tracks where release_date>2018 and popularity>80 categorize_by artists
+  > Find count(*), total_sum(GNP), maximum(GNP) of records categorize_by Continent
   ```
 * Sort:
   ```python
-  >
-  >
+  > Find Name, GNP, Region in records with Continent=Asia sort_by GNP asc
+  > Show Name, Population, GNP, LifeExpectancy of countries where GNP>300000 and Continent!=Europe sort_by LifeExpectancy desc
   ```
 * Simple inner Join
   ```python
-  >
-  >
+  > Join country and city where country.country_code=city.CountryCode display country.Name, city.Name, city.Population country.Continent, country.Population
+  > Join SpotifyArtist and SpotifyTracks where SpotifyArtists.name=SpotifyTracks.artists display SpotifyArtist.name, SpotifyArtist.genres, SpotifyTracks.name, SpotifyTracks.popularity
   ```
   
 
