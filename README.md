@@ -127,7 +127,7 @@ We aim to enhance the project with advanced Natural Language Processing (NLP), p
 For detailed insights into the project implementation, architecture, challenges faced, and future scope, refer to the project report provided in the [Google Drive link](https://drive.google.com/file/d/1fn08NjbYqfZDaCL9zz3Zn2BcF-DgC0Lf/view?usp=sharing). 
 
 ## Contributions and Support
-Contributions to the project are welcome! Please refer to the guidelines outlined in the CONTRIBUTING.md file. For support or queries, feel free to open an issue or reach out to the project maintainer.
+Contributions to the project are welcome! Please refer to the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file. For support or queries, feel free to open an issue or reach out to the project maintainer.
 
 ## Credits
 * Kaggle dataset - [Spotify Million](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks?resource=download)
