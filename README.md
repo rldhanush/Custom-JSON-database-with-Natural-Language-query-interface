@@ -81,8 +81,41 @@ JSONDatabase - main root directory
       # On enter - we get a prompt to enter query
       # Usually for most queries - chunk size to be used by process engine is requested to the user - to implement data management
       ```
-
-
+* Projection:
+  ```python
+  >
+  >
+  ```
+* Insertion:
+  ```python
+  >
+  >
+  ```
+* Update:
+  ```python
+  >
+  >
+  ```
+* Delete:
+  ```python
+  >
+  >
+  ```
+* Group by Aggregations:
+  ```python
+  >
+  >
+  ```
+* Sort:
+  ```python
+  >
+  >
+  ```
+* Simple inner Join
+  ```python
+  >
+  >
+  ```
   
 
 
